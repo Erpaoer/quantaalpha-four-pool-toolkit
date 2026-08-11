@@ -1,0 +1,43 @@
+# Python caches and local environments
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+htmlcov/
+.venv/
+venv/
+
+# Local configuration and credentials
+config.toml
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Large or private research data
+*.h5
+*.hdf5
+*.parquet
+data/factorlib/
+data/index_daily/
+data/industry_map.csv
+data/index_returns.csv
+
+# Generated runtime artifacts
+/outputs/
+run_progress_*.log
+run_status_*.json
+portfolio_*.json
+nav_*.csv
+loo_*.json
+slippage_sweep_*.json
+rebal_sweep_*.json
+target_portfolio_*.csv
+/CSI*_因子策略_图文报告.html
+
+# Editor and operating-system noise
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db

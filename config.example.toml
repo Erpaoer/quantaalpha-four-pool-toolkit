@@ -1,0 +1,6 @@
+# Relative paths are resolved from this TOML file.
+[paths]
+qa_root = "../QuantaAlpha-main"
+qp_root = "../Quant-Project"
+data_path = "../QuantaAlpha-main/git_ignore_folder/factor_implementation_source_data_debug/daily_pv.h5"
+output_dir = "outputs"
