@@ -96,6 +96,8 @@ def test_build_report_uses_pool_metadata_and_factor_file(tmp_path):
     assert "Factor_B" in document
     assert "目标持仓 2 只" in document
     assert "固定宣传结论" not in document
+    assert str(tmp_path) not in document
+    assert "plot_data_CSI500.json" in document
 
 
 def test_missing_inputs_are_listed_before_output_is_written(tmp_path):

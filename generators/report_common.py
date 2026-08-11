@@ -305,7 +305,7 @@ def _render_report(
     report_keys = ", ".join(sorted(report_data)) or "无扩展字段"
     source_rows = "".join(
         f"<tr><td>{html.escape(name)}</td>"
-        f"<td><code>{html.escape(str(path))}</code></td></tr>"
+        f"<td><code>{html.escape(path.name)}</code></td></tr>"
         for name, path in (
             ("plot_data", inputs.plot_data),
             ("report_data", inputs.report_data),
