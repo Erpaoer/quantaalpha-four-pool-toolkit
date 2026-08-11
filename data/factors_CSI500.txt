@@ -1,0 +1,7 @@
+Abnormal_Volume_Reversal_Momentum_Factor
+Extreme_Loss_and_Volume_Surge
+MaxMin_Asymmetry_Negative_Rank_20D
+QualityReversal_MF_Interaction
+ReturnStability_Minus_VolumeSpike
+Six_Month_Overnight_Momentum
+Triple_Catalyst_Reversal_Score
